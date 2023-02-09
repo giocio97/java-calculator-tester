@@ -17,30 +17,31 @@ public class CalculatorTest {
 	}
 
 	@Test
-	@DisplayName("Somma")
+	@DisplayName("Verifica Somma")
 	public void testAdd() {
 		float result = c.add(4, 4);
 		assertEquals(8, result, "la somma deve essere 8");
 	}
 
 	@Test
-	@DisplayName("Sottrazione")
+	@DisplayName("Verifica Sottrazione")
 	public void testSubtract() {
 		float result = c.subtract(5, 4);
 		assertEquals(1, result, "la differenza deve essere 1");
 	}
 
 	@Test
-	@DisplayName("Moltiplicazione")
+	@DisplayName("Verifica Moltiplicazione")
 	public void testmultiply() {
 		float result = c.multiply(2, 4);
 		assertEquals(8, result, "il prodotto deve essere 8");
 	}
 
 	@Test
-	@DisplayName("Somma")
+	@DisplayName("Verifica Divisione")
 	public void testDivide() {
 		float result = c.divide(4, 4);
+
 		assertEquals(1, result, "il quoziente deve essere 1");
 	}
 
